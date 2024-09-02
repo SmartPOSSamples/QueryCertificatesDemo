@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="log_default" type="id"/>
+    <item name="log_success" type="id"/>
+    <item name="log_failed" type="id"/>
+    <item name="log_clear" type="id"/>
+    
+</resources>

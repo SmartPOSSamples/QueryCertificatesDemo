@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.618"
+        android:background="#FFAAAAAA"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFAAAAAA"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_textview_shape"
+                android:gravity="center"
+                android:text="@string/introduction"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_textview_shape"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_test1"
+                android:layout_width="108dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/test_1"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_test2"
+                android:layout_width="108dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/test_2"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_test3"
+                android:layout_width="108dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/test_3"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_test4"
+                android:layout_width="108dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/test_4"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_test5"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="enable/disableAutoTime"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_test6"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="getAutoTime"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_test7"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="enable/disableAutoTimeGUI"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_test8"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_selector"
+                android:text="getAutoTimeGUI"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFAAAAAA"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1.618"
+                android:background="@drawable/bg_textview_shape"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/logcat_clear"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/button_selector"
+                android:text="@string/settings"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/text_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_textview_shape"
+                android:scrollbars="vertical"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
